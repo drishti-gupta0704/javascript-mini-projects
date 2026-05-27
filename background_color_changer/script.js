@@ -15,8 +15,18 @@ function generateColor() {
 
     return hexColor;
 }
+/*
+method -2 
 
+rgb(255, 0, 0)
+let r = Math.floor(Math.random() * 256);
+let g = Math.floor(Math.random() * 256);
+let b = Math.floor(Math.random() * 256);
+let color = `rgb(${r}, ${g}, ${b})`;
 
+console.log(color);
+
+*/
 
 button.addEventListener("click", function () {
 
