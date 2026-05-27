@@ -9,14 +9,12 @@ button.addEventListener("click", function () {
     if (text.classList.contains("hidden")) {
 
         text.style.display = "none";
-
         button.innerText = "Show Text";
     }
 
     else {
 
         text.style.display = "block";
-
         button.innerText = "Hide Text";
     }
 
