@@ -5,10 +5,10 @@ let nextBtn = document.getElementById("nextBtn");
 
 let images = [
 
-    "https://picsum.photos/id/1015/400/250",
-    "https://picsum.photos/id/1025/400/250",
-    "https://picsum.photos/id/1035/400/250",
-    "https://picsum.photos/id/1045/400/250"
+    "https://i.pinimg.com/736x/c8/c3/c6/c8c3c690edca3f4340058e79a1f47ac7.jpg",
+    "https://i.pinimg.com/736x/e0/8a/ec/e08aec49eb718a513a60241acfb75db9.jpg",
+    "https://i.pinimg.com/736x/68/ea/87/68ea878d669aabae852272d8cb0f2c27.jpg",
+    "https://i.pinimg.com/736x/0f/c7/ea/0fc7ea9ad7ad9eff6fad322cf2197f92.jpg"
 
 ];
 
