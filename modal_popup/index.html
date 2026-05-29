@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup</title>
+</head>
+<body>
+
+    <button id="openBtn">
+        Open Modal
+    </button>
+
+    <div 
+        id="modalOverlay"
+        style="
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(1, 16, 19, 0.462);
+        "
+    >
+
+        <div 
+            id="modal"
+            style="
+                background-color: white;
+                width: 300px;
+                padding: 20px;
+                margin: 100px auto;
+            "
+        >
+
+            <h2>Modal Popup</h2>
+
+            <p>
+                This is a simple modal popup.
+            </p>
+
+            <button id="closeBtn">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
